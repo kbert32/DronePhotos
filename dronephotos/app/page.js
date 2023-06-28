@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <>
       <Navigation />
-      <main className="flex">
+      <main className="flex pt-32">
         <Photos />
       </main>
     </>
