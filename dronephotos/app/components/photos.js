@@ -1,7 +1,13 @@
+import Card from "./card";
+
 export default function Photos() {
   return (
-    <div>
-      <Card></Card>
+    <div className="flex flex-row">
+      <Card
+        path="/photos/tonygrove.png"
+        alt="tony grove"
+        description="Background"
+      />
     </div>
   );
 }
