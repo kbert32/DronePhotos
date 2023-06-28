@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <>
       <Navigation />
-      <main className="flex min-h-screen">
+      <main className="flex">
         <Photos />
       </main>
     </>
