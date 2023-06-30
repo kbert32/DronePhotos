@@ -4,7 +4,7 @@ import Card from "./card";
 export default function Photos() {
   return (
     <div className="flex flex-wrap justify-between max-w-screen-lg mx-auto">
-      <Link href="/">
+      <Link href="/rulethirds">
         <Card
           path="/photos/tonygrove.png"
           alt="Rule of Thirds"
